@@ -64,3 +64,9 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+# SASS and SASS map files
+css/disc.css.map
+css/disc.scss
+css/main.css.map
+css/main.scss

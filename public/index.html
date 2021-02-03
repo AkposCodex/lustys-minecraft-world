@@ -16,9 +16,9 @@
             <nav>
                 <ul>
                     <li> <a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
+                    <li><a href="slidertest.html">about</a></li>
                     <li><a href="join.html" target="_blank">join</a></li>
-                    <li><a href="#look_here" >socials</a></li>
+                    <li><a href="#look_here">socials</a></li>
                     <li><a href="#" id="ham-icon"><svg height="32px" id="Layer_1"
                                 style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px"
                                 xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
@@ -53,9 +53,18 @@
         <!--Showcasing Minecraft Builds-->
         <p class="show">Showcase</p>
         <div class="showcase" id="showcase">
-            <img src="showcase/2020-01.png" alt="">
-            
+            <ul id="gallery">
+                <li id="gallery1"><img src="showcase/2020-2.png" alt="" ></li>
+                <li id="gallery0"><img src="showcase/2020-1.png" alt="" ></li>
+                <li id="gallery2"><img src="showcase/2020-3.png" alt="" ></li>
+            </ul>
+
+            <div class="left"> <img src="icons/arrow_left-2.svg" alt=""> </div>
+            <div class="right"> <img src="icons/arrow_right-2.svg" alt=""> </div>
+            <div class="directions">
+            </div>
         </div>
+
     </div>
 
 
@@ -66,12 +75,12 @@
     <!--Social links-->
     <div class="socials" id="look_here">
         <ul>
-            <li><a href="https://twitter.com/EdgeKami" target="_blank"><img id="twitter" src="images/Twitter_Logo_WhiteOnImage.svg"
-                        alt=""> </a></li>
-            <li><a href="https://github.com/AkposCodex" target="_blank"><img id="github" src="images/GitHub-Mark-Light-64px.png"
-                        alt=""></a></li>
-            <li><a href="https://discord.gg/ahUPKgQ54e" target="_blank"><img id="discord" src="images/Discord-Logo-White.png"
-                        alt=""></a></li>
+            <li><a href="https://twitter.com/EdgeKami" target="_blank"><img id="twitter"
+                        src="images/Twitter_Logo_WhiteOnImage.svg" alt=""> </a></li>
+            <li><a href="https://github.com/AkposCodex" target="_blank"><img id="github"
+                        src="images/GitHub-Mark-Light-64px.png" alt=""></a></li>
+            <li><a href="https://discord.gg/ahUPKgQ54e" target="_blank"><img id="discord"
+                        src="images/Discord-Logo-White.png" alt=""></a></li>
         </ul>
     </div>
 
@@ -82,16 +91,16 @@
     <script src="js/main.js"></script>
 
 
-    
+
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/8.2.1/firebase-app.js"></script>
+    <script src="/__/firebase/8.2.1/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
+    <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="/__/firebase/8.2.1/firebase-analytics.js"></script>
+    <script src="/__/firebase/8.2.1/firebase-analytics.js"></script>
 
-Initialize Firebase
-<script src="/__/firebase/init.js"></script>
+    Initialize Firebase
+    <!-- <script src="/__/firebase/init.js"></script> -->
 </body>
 
 </html>

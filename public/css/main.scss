@@ -59,16 +59,20 @@ body {
     // font-family: minecraft;
     position: relative;
     background: black;
-    /* background-color: aquamarine; */
-    /* background-image: url('../steveealex.jpg'); */
-    /* background-position: center; */
-    /* background-repeat: no-repeat;
-    background-size: contain; */
-    /* background: url('images/Minecraft-with-RTX-Windows-Open-Beta.jpg'); */
 }
 
 p {
     font-size: 20px;
+}
+
+#ham-icon {
+    #Layer_1 {
+        display: none;
+        @include iphone {
+            display: block;
+            color: white;
+        }
+    }
 }
 
 header {
@@ -98,6 +102,22 @@ nav {
     background: black;
     width: 100%;
     height: 1.5em;
+}
+
+.welcome {
+    width: auto;
+    height: 15em;
+
+    margin: 1vh;
+    background-image: url("../steveealex.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    img {
+        height: 25em;
+        width: 100%;
+    }
 }
 
 .resp {
@@ -140,7 +160,7 @@ header {
 }
 
 .body {
-    margin: 0 3em;
+    // margin: 0 3em;
 
     .show {
         font-family: minecraft;
@@ -150,20 +170,40 @@ header {
     }
 }
 
-.welcome {
+.showcase {
     width: auto;
-    height: 15em;
-
-    margin: 1vh;
-    background-image: url("../steveealex.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-
+    height: auto;
+    padding: 0 10.4em;
+    // position: relative;
     img {
-        height: 25em;
-        width: 100%;
+        display: inline;
+        width: 70vw;
+        height: auto;
     }
+
+    .left img{
+//         position: absolute;
+//         left: 2em;
+//         background: url("../icons/arrow_left-2.png");
+        width: 64px;
+        height: 64px;
+        stroke: color(primary);
+        //         bottom: 2em;
+        //         background-repeat: no-repeat;
+    }
+    
+    .right img{
+        //         position: absolute;
+        //         right: 2em;
+        //         background: url("../icons/arrow_right-2.png");
+        width: 64px;
+        height: 64px;
+        stroke: color(primary);
+//         bottom: 2em;
+//         background-repeat: no-repeat;
+    }
+}
+    .directions {
 }
 
 .home {
@@ -213,16 +253,6 @@ header {
     }
 }
 
-footer {
-    color: color(secondary);
-    text-align: center;
-    font-family: monte;
-
-    p {
-        font-size: 16px;
-    }
-}
-
 .socials {
     background: color(primary);
     font-family: minecraft;
@@ -251,12 +281,12 @@ footer {
     }
 }
 
-#ham-icon {
-    #Layer_1 {
-        display: none;
-        @include iphone {
-            display: block;
-            color: white;
-        }
+footer {
+    color: color(secondary);
+    text-align: center;
+    font-family: monte;
+
+    p {
+        font-size: 16px;
     }
 }

@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lusty9",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkposCodex/lustys-minecraft-world.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AkposCodex/lustys-minecraft-world/issues"
+  },
+  "homepage": "https://github.com/AkposCodex/lustys-minecraft-world#readme"
 }

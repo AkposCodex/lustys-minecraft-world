@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+@font-face{
+    font-family: 'Minecrafter';
+    src: url('../fonts/minecrafter/Minecrafter.Reg.ttf');
+}
+@font-face{
+    font-family: 'Minecrafter2';
+    src: url('../fonts/minecrafter/Minecrafter.Alt.ttf');
+    
+}
+    /* import url('../font/Minecrafter.Reg.ttf'); */
+
+:root{
+    --header_size : 4rem;
+    --title_size: 50px;
+    --font_size: 18px;
+    --font-color: white;
+    --font1: 'Minecrafter';
+    --font2: 'Minecrafter2';
+    --primarySwatch: #00aa00;
+    --pilager_primarySwatch: #1f70bf;
+    --pilager_secondarySwatch: #533364;
+    --villain_primarySwatch: #d8fffe;
+    --villain_secondarySwatch: #5d64a0;
+    --villain_secondarySwatch2: #332a3d;
+    --hero_primarySwatch: #f0e67a;
+    --hero_secondarySwatch: #5f4a0b;
+}
+
+body{
+    /* margin: 0 2vw; */
+    margin: 0;
+    padding: 0;
+    font-family: var(--font2);
+    background: black;
+}
+
+.nav{
+    text-align: center;
+    font-size: 25px;
+    font-family: var(--font1);
+    padding: 0;
+}
+
+.nav li{
+    font-family: var(--font1);
+font-size: var(--font_size);
+text-decoration: none;
+display: inline-block;
+margin-right: 2em;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul{
+    /* text-align: center; */
+    font-size: 25px;
+    font-family: var(--font1);
+    padding-top: 8px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+   /* position: absolute;
+    right: 1em;
+} */
+}
+
+header h1{
+    color: black;
+    font-family: var(--font2);
+    text-align: center;
+    font-size: var(--header_size);
+    margin: 20px 0 0 0;
+    background: var(--primarySwatch);
+    padding: 10px;
+}
+
+
+
+.banner_small{
+    width: 100px;
+    height: 100px;
+}
+
+.houses{
+    text-align: center;
+    font-size: var(--title_size);
+}
+
+#pillagers p{
+    background: linear-gradient(var(--pilager_primarySwatch), var(--pilager_secondarySwatch));
+}
+
+#heroes p{
+    background: linear-gradient(var(--hero_primarySwatch), var(--hero_secondarySwatch));
+}
+
+
+
+#villains p{
+    background: linear-gradient(var(--villain_primarySwatch), var(--villain_secondarySwatch));
+}
+#pillagers p, #heroes p, #villains p{
+    -webkit-text-fill-color: transparent;
+    /* text-shadow: 1px 1px 1px #000; */
+    -webkit-background-clip: text;
+    background-clip: text;
+}
