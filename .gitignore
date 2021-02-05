@@ -7,6 +7,7 @@ yarn-error.log*
 firebase-debug.log*
 firebase-debug.*.log*
 
+.DS_Store
 # Firebase cache
 .firebase/
 
@@ -70,3 +71,4 @@ css/disc.css.map
 css/disc.scss
 css/main.css.map
 css/main.scss
+**.scss

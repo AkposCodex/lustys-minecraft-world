@@ -8,6 +8,11 @@
     src: url('../fonts/minecrafter/Minecrafter.Alt.ttf');
     
 }
+
+@font-face {
+    font-family: monte;
+    src: url(../fonts/Montserrat-Medium.ttf);
+  }
     /* import url('../font/Minecrafter.Reg.ttf'); */
 
 :root{
@@ -109,3 +114,45 @@ header h1{
     -webkit-background-clip: text;
     background-clip: text;
 }
+
+.socials {
+    background: #00aa00;
+    font-family: minecraft;
+    height: 5em;
+  }
+  
+  .socials ul {
+    text-align: center;
+    padding: 1.2em;
+  }
+  
+  .socials ul li {
+    position: relative;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .socials ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+    padding: 0;
+  }
+  
+  .socials ul li img {
+    width: 40px;
+    height: 40px;
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+    font-family: monte;
+  }
+  
+  footer p {
+    font-size: 16px;
+  }
+
+  
