@@ -1,5 +1,7 @@
 [![Generic badge](https://img.shields.io/badge/W_I_P-ff69b4.svg?style=flat-square)](https://shields.io/)
 
+[![Generic badge](https://img.shields.io/badge/Site_status-Online-00aa00.svg?style=flat-square&labelColor=ff69b4)](https://lustys-minecraft-world.web.app)
+
 [![Generic badge](https://img.shields.io/badge/Code_Completion-60-green.svg?style=flat-square&labelColor=00aa00)](https://shields.io/)
 [![Discord](https://img.shields.io/discord/591914197219016707.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2?style=flat-square)](https://discord.gg/ahUPKgQ54e)
 
