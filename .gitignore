@@ -67,8 +67,9 @@ node_modules/
 .env
 
 # SASS and SASS map files
-css/disc.css.map
-css/disc.scss
-css/main.css.map
-css/main.scss
 **.scss
+**.map
+
+badge.html
+
+*github/
