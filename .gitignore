@@ -66,8 +66,4 @@ node_modules/
 # dotenv environment variables file
 .env
 
-# SASS and SASS map files
-**.scss
-**.map
-
 badge.html

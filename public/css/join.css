@@ -139,7 +139,7 @@ header h1 {
 }
 
 #heroes p {
-  background: -webkit-linear-gradient(var(--hero_primarySwatch), var(--hero_secondarySwatch));
+  background: -webkit-linear-gradient(#f0e67a, #5f4a0b);
   -webkit-text-fill-color: transparent;
   margin: 0;
   -webkit-background-clip: text;

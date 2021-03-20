@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "Minecrafter";
+    src: url("../fonts/minecrafter/Minecrafter.Reg.ttf");
+}
+@font-face {
+    font-family: "Minecrafter2";
+    src: url("../fonts/minecrafter/Minecrafter.Alt.ttf");
+}
+
+@font-face {
+    font-family: monte;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+$header_size: 4rem;
+$title_size: 50px;
+$font_size: 18px;
+$font-color: white;
+$font1: "Minecrafter";
+$font2: "Minecrafter2";
+$primarySwatch: #00aa00;
+$pilager_primarySwatch: #1f70bf;
+$pilager_secondarySwatch: #533364;
+$villain_primarySwatch: #d8fffe;
+$villain_secondarySwatch: #5d64a0;
+$villain_secondarySwatch2: #332a3d;
+$hero_primarySwatch: #f0e67a;
+$hero_secondarySwatch: #5f4a0b;
+
+body {
+    /* margin: 0 2vw; */
+    margin: 0;
+    padding: 0;
+    font-family: $font2;
+    background: black;
+}
+
+.nav {
+    text-align: center;
+    font-size: 25px;
+    font-family: $font1;
+    padding: 0;
+    li {
+        font-family: $font1;
+        font-size: $font_size;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 2em;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    ul {
+        font-size: 25px;
+        font-family: $font1;
+        padding-top: 8px;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+header {
+    h1 {
+        color: black;
+        font-family: $font2;
+        text-align: center;
+        font-size: $header_size;
+        margin: 20px 0 0 0;
+        background: $primarySwatch;
+        padding: 10px;
+    }
+}
+
+.banner_small {
+    width: 150px;
+    height: 150px;
+    margin-top: 1em;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-color:  rgba($color: #000000, $alpha: .5);
+    position: absolute;
+    display: flex;
+    justify-items: center;
+    top: 0;
+    .join_house{
+        background-color: white;
+        text-align: center;
+        font-family: monte;
+        width: 60vw;
+        height: 50vh;
+        margin: auto;
+
+        p{
+            margin-top: 4em; 
+            font-size: 24px;
+        }
+
+        form{
+            margin: auto;
+            label{
+                display: block;
+            }
+        }
+    }
+}
+
+.houses {
+    text-align: center;
+    font-size: $title_size;
+
+    input[type = button]{
+        width: 10rem;
+        height: 3em;
+        // border-radius: 10px;
+        border: none;
+        color: white;
+        background-color: $primarySwatch;
+        font-family: $font2;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    // input[type = button] ::-ms-value{
+    //     background-color: green;
+    //     opacity: .4;
+    //     color: pink;
+    // }
+}
+
+#pillagers {
+    p {
+        background: -webkit-linear-gradient($pilager_primarySwatch, $pilager_secondarySwatch);
+        -webkit-text-fill-color: transparent;
+        margin: 0;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    h6 {
+        background: -webkit-linear-gradient($pilager_primarySwatch, $pilager_secondarySwatch);
+        -webkit-text-fill-color: transparent;
+        font-family: monte;
+        margin: 0;
+        padding: 0.5em 1em;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+}
+
+#heroes {
+    p {
+        background: -webkit-linear-gradient($hero_primarySwatch, $hero_secondarySwatch);
+        -webkit-text-fill-color: transparent;
+        margin: 0;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    h6 {
+        background: -webkit-linear-gradient($hero_primarySwatch, $hero_secondarySwatch);
+        -webkit-text-fill-color: transparent;
+        font-family: monte;
+        margin: 0;
+        padding: 0.5em 1em;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+}
+
+#villains {
+    p {
+        background: -webkit-linear-gradient($villain_primarySwatch, $villain_secondarySwatch);
+        -webkit-text-fill-color: transparent;
+        margin: 0;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    h6 {
+        background: -webkit-linear-gradient($villain_primarySwatch, $villain_secondarySwatch);
+        -webkit-text-fill-color: transparent;
+        font-family: monte;
+        margin: 0;
+        padding: 0.5em 1em;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+}
+
+.socials {
+    background: #00aa00;
+    font-family: minecraft;
+    height: 5em;
+    ul {
+        text-align: center;
+        padding: 1.2em;
+        li {
+            position: relative;
+            font-size: 18px;
+            text-decoration: none;
+            display: inline-block;
+            a {
+                text-decoration: none;
+                color: white;
+                margin: 8px;
+                padding: 0;
+            }
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+footer {
+    color: white;
+    text-align: center;
+    font-family: monte;
+    p {
+        font-size: 16px;
+    }
+}
